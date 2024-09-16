@@ -1,4 +1,4 @@
-namespace DefaultNamespace;
+namespace TestProject;
 
 public class AndTests
 {
