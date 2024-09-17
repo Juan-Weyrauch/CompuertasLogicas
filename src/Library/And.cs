@@ -1,9 +1,10 @@
-namespace DefaultNamespace;
-
-public static class And
+namespace Library
 {
- public static bool funcion(bool EntradaA, bool EntradaB)
-  if ((EntradaA && EntradaB) == true ){
-     return true; }
- else return false;
+    public static class Comparar : IPuertaLogica
+    {
+        public static bool Funcion(bool valorA, bool valorB)
+        {
+            return valorA && valorB;
+        }
+    }
 }
