@@ -1,6 +1,12 @@
-namespace DefaultNamespace;
+using System;
 
-public class Not
+namespace Library; 
+
+public class Not : LogicGate
 {
-    if (entrada1 && entrada2){}
+    public override bool Evaluate(params bool[] inputs)
+    {
+        if (inputs.Length != 1) throw new ArgumentException("Not gate requires exactly one input");
+        return !inputs[0];
+    }
 }
