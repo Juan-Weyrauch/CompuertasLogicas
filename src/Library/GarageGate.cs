@@ -4,6 +4,8 @@ public class GarageGate : IPuertaLogica
 {
     public bool Funcion(List<bool> listaBools)
     {
+        
+        // Valor A [0], Valor B [1]. Valor C [2]
         bool ValorA = listaBools[0];
         bool ValorB = listaBools[1];
         bool ValorC = listaBools[2];
