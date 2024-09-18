@@ -1,9 +1,9 @@
 using System;
 
 namespace Library;
-public interface ICompuertaLogica
+public interface IPuertaLogica
 {
-    public bool Funcion(bool valorA, bool valorB); // Define la funcion en la interfaz.
+    public bool Funcion(List<bool> listabools); // Define la funcion en la interfaz.
 }
 
 
