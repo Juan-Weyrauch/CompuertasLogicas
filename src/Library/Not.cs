@@ -9,4 +9,9 @@ public class Not: IPuertaLogica
             return !listaBools[0]; // Retorna el valor booleano opuesto al que entro.
     }
     
+    public bool Funcion(bool listaBools) // Unicamente devuelve el primer valor de entrada.
+        {
+                return !listaBools; // Retorna el valor booleano opuesto al que entro.
+        }
+    
 }

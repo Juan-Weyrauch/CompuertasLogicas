@@ -13,6 +13,21 @@ public class Program
         Console.WriteLine(and.Funcion([false, true]));
         Console.WriteLine(or.Funcion([false, true]));
         Console.WriteLine(not.Funcion([false]));
-
+        
+       /* var and1 = new And();
+        bool answer = and1.Funcion([true, true]);
+        
+        Console.WriteLine(and.Funcion([answer, true])); */
+        
+       
+       //Primer and: 
+       And a = new And();
+       And b = new And();
+       And c = new And();
+       
+       
+       
+       
+       
     }
 }
