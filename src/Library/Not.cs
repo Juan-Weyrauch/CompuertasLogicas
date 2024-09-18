@@ -1,6 +1,5 @@
 using Library;
 
-namespace DefaultNamespace;
 
 public class Not: IPuertaLogica
 {
