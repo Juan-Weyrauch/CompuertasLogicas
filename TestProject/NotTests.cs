@@ -22,7 +22,13 @@ public class NotTests
         
         Assert.IsTrue(expected);
     }
-    
-    
+
+    [Test]
+    public void If_True_Return_False()
+    {
+        bool input = true;
+        bool expected = _or.Funcion(input);
         
+        Assert.IsFalse(expected);
+    }
 }
