@@ -1,13 +1,13 @@
-using System;
+namespace Library;
 
-namespace Library{ 
-
-    public class Or : LogicGate
+public class Or : IPuertaLogica
 {
-    public override bool Evaluate(params bool[] inputs)
+    public bool Funcion(List<bool> listaBools)
     {
-        if (inputs.Length < 2) throw new ArgumentException("Or gate requires at least two inputs");
-        return inputs.Any(input => input);
+        if (listaBools[0] || listaBools[1])
+        {
+            return true;
+        }
+        else return false;
     }
-}
 }

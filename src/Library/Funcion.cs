@@ -2,6 +2,6 @@ namespace Library
 {
     public interface IPuertaLogica
     {
-        bool Funcion(bool valorA, bool valorB);
+        public bool Funcion(List<bool> listaBools);
     }
 }

@@ -1,9 +1,13 @@
 namespace Library;
 
-public class And : LogicGate{
-    public override bool Evaluate(params bool[] inputs)
+public class And : IPuertaLogica
+{
+    public bool Funcion(List<bool> listaBools)
     {
-        if (inputs.Length < 2) throw new ArgumentException("And gate requires at least two inputs");
-        return inputs.All(input => input);
+        if (listaBools[0] && listaBools[1])
+        {
+            return true;
+        }
+        else return false;
     }
 }

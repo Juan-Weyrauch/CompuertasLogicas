@@ -1,8 +1,9 @@
 using System;
 
 namespace Library;
-public abstract class LogicGate{
-    public abstract bool Evaluate (params bool[] inputs);
+public interface ICompuertaLogica
+{
+    public bool Funcion(bool valorA, bool valorB);
 }
 
 
